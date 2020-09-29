@@ -9,4 +9,3 @@
 - Play!
 
 ![Game Play](screenshots/game-play.png)
-Format: ![Connect4 Game]
