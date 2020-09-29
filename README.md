@@ -7,3 +7,6 @@
 - Open browser and hit ```http://localhost:8000```
 - Open another browser windows and hit above URL
 - Play!
+
+![Game Play](screenshots/game-play.png)
+Format: ![Connect4 Game](url)
