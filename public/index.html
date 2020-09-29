@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect 4 Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-name">Connect 4!</div>
+    <div class="header">
+      <div>
+        <h3>Lobby Id: <span class="lobby-id" id="lobbyId"></span></h3>
+      </div>
+      <div class="color">
+        <h3>Your Color: <span id="player1-color"></span></h3>
+      </div>
+      <div class="color">
+        <h3>Opponent’s Color: <span id="player2-color"></span></h3>
+      </div>
+      <div class="turn">
+        <h3>Turn: <span style="color: green" id="player-turn"></span></h3>
+      </div>
+      <div class="game-status">
+        <h3>Game Status: <span id="gameStatus">Waiting...</span></h3>
+      </div>
+    </div>
+    <div id="column-buttons"></div>
+    <div id="game-board"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
